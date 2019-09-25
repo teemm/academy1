@@ -1,26 +1,42 @@
-h1{
-   border: 5px solid red; 
-   /* border-top-color: red;
-   border-top-style: dotted;
-   border-top-width: 5px;
-   border-bottom-color: black;
-   border-bottom-style: solid;
-   border-bottom-width: 2px;
-   border-right-color: red;
-   border-right-style: dotted;
-   border-right-width: 5px;
-   border-left-color: blue;
-   border-left-style: dashed;
-   border-left-width: 3px; */
-   /* border-radius: 50%; */
-   margin: 20px 25px 15px 10px;
-   background-color: gray;
-   padding: 20px 25px 15px 10px;
+.logo{
+    width: 100px;
+    margin-top: 30px;
 }
-
-.test{
-    width: 200px;
-    height: 200px;
-    background-color: aquamarine;
-    border-radius: 30px;
+.container{
+    margin-left: 30px;
+}
+.navigation{
+    margin-top: 25px;
+}
+.navigation-a{
+    padding: 7.5px 0; 
+    display: inline-block;
+    /* color: rgb(61,88,166); */
+    color: #3D58A6;
+    font-size: 22px;
+}
+.navigation-a:hover{
+    color: #EE4036;
+}
+.banner-img{
+    margin-top: 20px;
+}
+.soclia-a img {
+    height: 30px;
+}
+.social-li{
+    display: inline-block;
+}
+.soclia-a.fb{
+    padding-right: 30px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #3D58A6; 
+    display: inline-block;
+}
+.soclia-a.youtube{
+    padding-left: 30px;
+}
+.footer{
+    margin-top: 30px;
 }
