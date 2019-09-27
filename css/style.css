@@ -14,6 +14,7 @@
     /* color: rgb(61,88,166); */
     color: #3D58A6;
     font-size: 22px;
+    font-family: 'BPG Nino Mtavruli Bold';
 }
 .navigation-a:hover{
     color: #EE4036;
@@ -39,4 +40,60 @@
 }
 .footer{
     margin-top: 30px;
+}
+.article{
+    margin-top: 40px;
+}
+.date-block{
+    font-family: 'BPG Nino Mtavruli';
+}
+.date{
+    background-color: #3D58A6;
+    padding: 8px 5px 3px 5px;
+    font-size: 48px;
+    color: #ffffff;
+    display: inline-block;
+}
+.month{
+    font-size: 22px;
+    color: #3D58A6;
+    margin-top: 8px;
+}
+.article-title{
+    font-size: 20px;
+    display: block;
+    margin-top: 25px;
+    /* font-family: "BPG Nino Mtavruli", sans-serif; */
+    font-family: 'BPG Nino Mtavruli';
+}
+.article-img{
+    margin-top: 25px;
+}
+.par{
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 22px;
+    font-family: "BPG Arial", sans-serif;
+}
+.contact-section{
+    width: 280px;
+    margin: 150px auto;
+}
+.contact-title{
+    font-size: 20px;
+    font-family: 'BPG Nino Mtavruli Bold';
+    color: #3D58A6;
+    text-align: center;
+}
+.row{
+    font-family: "BPG Arial", sans-serif;
+    font-size: 16px;
+    text-align: center; 
+    margin: 5px auto;
+}
+.key{
+    color: #808080;
+}
+.value{
+    color: #000000;
 }
