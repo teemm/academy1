@@ -1,3 +1,17 @@
+/* base classes */
+.inline-block{
+    display: inline-block;
+}
+.verical-middle{
+    vertical-align: middle
+}
+.vertical-top{
+    vertical-align: top;
+}
+.vertical-bottom{
+    vertical-align: bottom;
+}
+/* base classes */
 .logo{
     width: 100px;
     margin-top: 30px;
@@ -28,6 +42,12 @@
 .social-li{
     display: inline-block;
 }
+/* .social-li::before{ */
+    /* content: " " */
+/* } */
+/* .social-li::after{ */
+    /* content: " " */
+/* } */
 .soclia-a.fb{
     padding-right: 30px;
     border-right-style: solid;
@@ -52,7 +72,6 @@
     padding: 8px 5px 3px 5px;
     font-size: 48px;
     color: #ffffff;
-    display: inline-block;
 }
 .month{
     font-size: 22px;
@@ -75,20 +94,29 @@
     line-height: 22px;
     font-family: "BPG Arial", sans-serif;
 }
-.contact-section{
+.content-section{
+    background-color: #E6E6E6;
+    padding: 30px 0 30px 30px;
+}
+.iframe{
+   width: 870px;
+   height: 460px;
+   border:0;
+   margin-left: 40px; 
+}
+.content-right-block{
     width: 280px;
-    margin: 150px auto;
 }
 .contact-title{
     font-size: 20px;
     font-family: 'BPG Nino Mtavruli Bold';
     color: #3D58A6;
-    text-align: center;
+    /* text-align: center; */
 }
 .row{
     font-family: "BPG Arial", sans-serif;
     font-size: 16px;
-    text-align: center; 
+    /* text-align: center;  */
     margin: 5px auto;
 }
 .key{
@@ -97,3 +125,46 @@
 .value{
     color: #000000;
 }
+/* fatured block */
+.feature-block{
+    margin-top: 120px; /* test */
+}
+.feature-heading{
+    font-family: 'Roboto';
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.feature-heading .link{
+    text-transform: lowercase;
+}
+.feature-item{
+    width: 570px;
+    background-color: #F2F2F2;
+    padding: 15px 25px 40px 15px;
+}
+.feature-item:last-child{
+    margin-left: 30px;
+}
+.feature-item .title{
+    font-family: "Roboto";
+    font-size: 22px;
+    color: #3D58A6;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.feature-item .content-img{
+    width: 100px;
+    margin: auto 60px auto 25px;
+    vertical-align: bottom;
+}
+.feature-item .content-p{
+    width: calc(100% - 185px);
+    font-size: 20px;
+    font-family: "Roboto";
+    line-height: 24px;
+}
+/* .feature-item:nth-of-type(2n - 1){
+    background: red;
+} */
+/* fatured block */
