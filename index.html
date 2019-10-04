@@ -10,62 +10,121 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="container">
-        <header class="header">
-            <a href="#">
+    <main class="main">
+        <header class="header container clearfix">
+            <a href="#" class="float-left">
                 <img class="logo" src="img/logo.svg" alt="logo">
             </a>
-            <nav class="navigation">
-                <ul class="navigation-ul">
-                    <li class="navigation-li">
-                        <a href="index.html" class="navigation-a"> მთავარი </a>
-                    </li>
-                    <li class="navigation-li">
-                        <a href="news.html" class="navigation-a"> სიახლეები </a>
-                    </li>
-                    <li class="navigation-li">
-                        <a href="contact.html" class="navigation-a"> კონტაქტი </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section>
-            <img class="banner-img" src="img/banner.png" alt="banner">
-        </section>
-        <section class="feature-block">
-            <h1 class="feature-heading hedint-link">
-                Featured |  <a class="link" href="#">view all featured media</a>
-            </h1>
-            <div class="featured-wrapper">
-                <article class="feature-item inline-block">
-                    <h1 class="title">Responsive Web Design</h1>
-                    <div class="content-wrapper">
-                        <img class="content-img inline-block vertical-top" src="img/finger.png" alt="finger"><!--
-                        --><p class="content-p inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-                    </div>
-                </article><!--
-                --><article class="feature-item inline-block">
-                    <h1 class="title">Responsive Web Design</h1>
-                    <div class="content-wrapper">
-                        <img class="content-img inline-block vertical-top" src="img/finger.png" alt="finger"><!--
-                        --><p class="content-p inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-                    </div>
-                </article>
-            </div>
-        </section>
-        <footer class="footer">
-            <ul class="social-ul">
+            <ul class="social-ul float-right">
                 <li class="social-li">
-                    <a href="#" class="soclia-a fb">
-                        <img src="img/fb.svg" alt="fb">
+                    <a href="https://www.facebook.com" target="blank" class="social-a inline-block">
+                        <img class="img" src="img/fb.svg" alt="fb">
                     </a>
                 </li>
                 <li class="social-li">
-                    <a href="#" class="soclia-a youtube">
-                        <img src="img/youtube.svg" alt="youtube">
+                    <a href="https://youtube.com" target="blank" class="social-a inline-block">
+                        <img class="img" src="img/youtube.svg" alt="fb">
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="social-a inline-block">
+                        <img class="img" src="img/fb.svg" alt="fb">
+                    </a>
+                </li>
+                <li class="social-li">
+                    <a href="#" class="social-a inline-block">
+                        <img class="img" src="img/fb.svg" alt="fb">
                     </a>
                 </li>
             </ul>
+            <nav class="navigation float-right">
+                <ul class="navigation-ul">
+                    <li class="navigation-li inline-block vertical-middle">
+                        <a href="index.html" class="navigation-a"> hom </a>
+                    </li>
+                    <li class="navigation-li inline-block vertical-middle">
+                        <a href="news.html" class="navigation-a"> news </a>
+                    </li>
+                    <li class="navigation-li inline-block vertical-middle">
+                        <a href="contact.html" class="navigation-a"> about </a>
+                    </li>
+                    <li class="navigation-li inline-block vertical-middle">
+                        <a href="contact.html" class="navigation-a"> contact </a>
+                    </li>
+                </ul>
+            </nav>
+  
+        </header>
+        <section class="banner-container">
+            <div class="container">
+                <img class="banner-img" src="img/banner.png" alt="banner">
+            </div>
+        </section>
+        <section class="video-section">
+            <div class="container">
+                <h1 class="title-heading">
+                    Featured |  <a class="link" href="#">view all featured media</a>
+                </h1>
+                <div class="video-wrapper clearfix">
+                    <iframe class="video-iframe float-left" src="https://www.youtube.com/embed/TSdGUaHj3TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video-iframe float-right" src="https://www.youtube.com/embed/TSdGUaHj3TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="newses-section">
+            <div class="container">
+                <h1 class="title-heading">
+                    Featured |  <a class="link" href="#">view all featured media</a>
+                </h1>
+                <div class="article-wrapper clearfix">
+                    <article class="article float-left">
+                        <img src="img/design.jpg" alt="design">
+                        <h1 class="article-title">Typography Lab</h1>
+                    </article>
+                    <article class="article float-left">
+                        <img src="img/design.jpg" alt="design">
+                        <h1 class="article-title">Typography Lab</h1>
+                    </article>
+                    <article class="article float-left">
+                        <img src="img/design.jpg" alt="design">
+                        <h1 class="article-title">Typography Lab</h1>
+                    </article>
+                    <article class="article float-left">
+                        <img src="img/design.jpg" alt="design">
+                        <h1 class="article-title">Typography Lab</h1>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="feature-block">
+            <div class="container">
+                <h1 class="title-heading">
+                    Featured |  <a class="link" href="#">view all featured media</a>
+                </h1>
+                <div class="featured-wrapper clearfix">
+                    <article class="feature-item float-left">
+                        <h1 class="title">Responsive Web Design</h1>
+                        <div class="content-wrapper">
+                            <img class="content-img inline-block vertical-top" src="img/finger.png" alt="finger"><!--
+                            --><p class="content-p inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+                        </div>
+                    </article>
+                    <article class="feature-item float-right">
+                        <h1 class="title">Responsive Web Design</h1>
+                        <div class="content-wrapper">
+                            <img class="content-img inline-block vertical-top" src="img/finger.png" alt="finger"><!--
+                            --><p class="content-p inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>   
+
+        </section>
+        <footer class="footer">
+            <div class="container clearfix">
+                <div class="left-block float-left">©2017 hyper text murkup language</div>
+                <div class="right-block float-right">created by: ME</div>
+            </div>
         </footer>
     </main>
 </body>

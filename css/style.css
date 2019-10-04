@@ -11,31 +11,73 @@
 .vertical-bottom{
     vertical-align: bottom;
 }
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.float-left{
+    float: left
+}
+.float-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+.title-heading{
+    font-family: 'Roboto';
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 90px;
+}
+.title-heading .link{
+    text-transform: lowercase;
+}
 /* base classes */
+/* header */
 .logo{
     width: 100px;
-    margin-top: 30px;
-}
-.container{
-    margin-left: 30px;
 }
 .navigation{
-    margin-top: 25px;
+    margin-top: 7px;
+    margin-right: 300px;
+}
+.header{
+    padding: 30px 0;
+    /* background-color: red; */
 }
 .navigation-a{
-    padding: 7.5px 0; 
+    padding: 0 15px; 
     display: inline-block;
     /* color: rgb(61,88,166); */
     color: #3D58A6;
     font-size: 22px;
-    font-family: 'BPG Nino Mtavruli Bold';
+    font-family: 'Roboto_regular';
+    text-transform: uppercase;
 }
 .navigation-a:hover{
-    color: #EE4036;
+    /* color: #EE4036; */
+    opacity: 0.7;
 }
-.banner-img{
-    margin-top: 20px;
+.social-li .img{
+    height: 30px;
 }
+.social-a{
+    padding: 0 15px;
+    border-right-color: #3D58A6;
+    border-right-style: solid;
+    border-right-width: 3px;
+}
+.social-li:last-child .social-a{
+    padding-right: 0;
+    border: 0;
+}
+/* header */
 .soclia-a img {
     height: 30px;
 }
@@ -48,56 +90,40 @@
 /* .social-li::after{ */
     /* content: " " */
 /* } */
-.soclia-a.fb{
-    padding-right: 30px;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: #3D58A6; 
-    display: inline-block;
-}
-.soclia-a.youtube{
-    padding-left: 30px;
-}
+/* footer */
 .footer{
-    margin-top: 30px;
+    line-height: 60px;
+    font-family: "Roboto_regular";
+    font-size: 12px;
 }
-.article{
-    margin-top: 40px;
-}
-.date-block{
-    font-family: 'BPG Nino Mtavruli';
-}
-.date{
-    background-color: #3D58A6;
-    padding: 8px 5px 3px 5px;
-    font-size: 48px;
-    color: #ffffff;
-}
-.month{
-    font-size: 22px;
+/* footer */
+/* newses section */
+.newses-section{
+    background-color: #BDCCD4;
+    padding-bottom: 90px;
     color: #3D58A6;
-    margin-top: 8px;
 }
-.article-title{
-    font-size: 20px;
-    display: block;
-    margin-top: 25px;
-    /* font-family: "BPG Nino Mtavruli", sans-serif; */
-    font-family: 'BPG Nino Mtavruli';
+.newses-section .article{
+    width: 270px;
+    margin-left: 30px;
 }
-.article-img{
-    margin-top: 25px;
+.newses-section .article:first-child{
+    margin-left: 0;
 }
-.par{
-    font-size: 16px;
-    margin-top: 30px;
-    line-height: 22px;
-    font-family: "BPG Arial", sans-serif;
-}
-.content-section{
+.newses-section .article-title{
+    line-height: 60px;
+    width: 100%;
     background-color: #E6E6E6;
-    padding: 30px 0 30px 30px;
+    font-family: "Roboto_regular";
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    color: #333333;
 }
+.newses-section img{
+    display: block;
+}
+/* newses section */
 .iframe{
    width: 870px;
    height: 460px;
@@ -127,24 +153,13 @@
 }
 /* fatured block */
 .feature-block{
-    margin-top: 120px; /* test */
-}
-.feature-heading{
-    font-family: 'Roboto';
-    font-size: 24px;
-    text-transform: uppercase;
-    margin-bottom: 35px;
-}
-.feature-heading .link{
-    text-transform: lowercase;
+    background-color: #E6E6E6;
+    padding-bottom: 30px;
 }
 .feature-item{
     width: 570px;
     background-color: #F2F2F2;
     padding: 15px 25px 40px 15px;
-}
-.feature-item:last-child{
-    margin-left: 30px;
 }
 .feature-item .title{
     font-family: "Roboto";
@@ -168,3 +183,20 @@
     background: red;
 } */
 /* fatured block */
+/* banner container */
+.banner-container{
+    background-color: #E6E6E6;
+    padding: 30px 0;
+}
+/* banner container */
+/* video section */
+.video-section{
+    background-color: #363E97;
+    padding-bottom: 90px;
+    color: #ffffff;
+}
+.video-iframe{
+    width: 570px;
+    height: 320px;
+}
+/* video section */
