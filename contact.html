@@ -10,59 +10,105 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
-        <header class="header container">
-            <a href="#">
-                <img class="logo" src="img/logo.svg" alt="logo">
-            </a>
-            <nav class="navigation">
-                <ul class="navigation-ul">
-                    <li class="navigation-li">
-                        <a href="index.html" class="navigation-a"> მთავარი </a>
+    <main class="main">
+        <header class="header">
+            <div class="container clearfix">
+                <a href="#" class="float-left">
+                    <img class="logo" src="img/logo.svg" alt="logo">
+                </a>
+                <ul class="social-ul float-right">
+                    <li class="social-li">
+                        <a href="https://www.facebook.com" target="blank" class="social-a inline-block">
+                            <img class="img" src="img/fb.svg" alt="fb">
+                        </a>
                     </li>
-                    <li class="navigation-li">
-                        <a href="news.html" class="navigation-a"> სიახლეები </a>
+                    <li class="social-li">
+                        <a href="https://youtube.com" target="blank" class="social-a inline-block">
+                            <img class="img" src="img/youtube.svg" alt="fb">
+                        </a>
                     </li>
-                    <li class="navigation-li">
-                        <a href="contact.html" class="navigation-a"> კონტაქტი </a>
+                    <li class="social-li">
+                        <a href="#" class="social-a inline-block">
+                            <img class="img" src="img/fb.svg" alt="fb">
+                        </a>
+                    </li>
+                    <li class="social-li">
+                        <a href="#" class="social-a inline-block">
+                            <img class="img" src="img/fb.svg" alt="fb">
+                        </a>
                     </li>
                 </ul>
-            </nav>
-        </header>
-        <section class="content-section">
-            <div class="content-left-block inline-block vertical-top">
-                <h1 class="contact-title">საკონტაქტო ინფორმაცია:</h1>
-                <div class="row">
-                    <span class="key">მისამართი:</span>
-                    <span class="value">პეტრიაშვილის ქ. 30</span>
-                </div>
-                <div class="row">
-                    <span class="key">ტელ:</span>
-                    <a href="tel:+99532222222" class="value">+995 32 222 222</a>
-                </div>
-                <div class="row">
-                    <span class="key">ელ. ფოსტა:</span>
-                    <a href="mailto:someone@example.com?Subject=Hello%20again" class="value"> mail@gmail.com </a>
-                </div>
+                <nav class="navigation float-right">
+                    <ul class="navigation-ul">
+                        <li class="navigation-li inline-block vertical-middle">
+                            <a href="index.html" class="navigation-a"> hom </a>
+                        </li>
+                        <li class="navigation-li inline-block vertical-middle">
+                            <a href="news.html" class="navigation-a"> news </a>
+                        </li>
+                        <li class="navigation-li inline-block vertical-middle">
+                            <a href="contact.html" class="navigation-a"> about </a>
+                        </li>
+                        <li class="navigation-li inline-block vertical-middle">
+                            <a href="contact.html" class="navigation-a"> contact </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="content-right-block inline-block vertical-top">
-                <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95278.32243031317!2d44.76881341844505!3d41.73243798469613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x61d084ede2576ea3!2sTbilisi!5e0!3m2!1sen!2sge!4v1570037094830!5m2!1sen!2sge" frameborder="0" allowfullscreen=""></iframe>
+        </header>
+        <div class="navigation-box">
+           <div class="container clearfix">
+               <ul class="navigation-box-ul float-left">
+                   <li class="navigation-box-li inline-block">
+                       <a href="#" class="navigation-box-a inline-block">contact</a>
+                   </li>
+                   <li class="navigation-box-li inline-block">
+                        <a href="#" class="navigation-box-a inline-block">news 1</a>
+                    </li>
+                       <li class="navigation-box-li inline-block">
+                        <a href="#" class="navigation-box-a inline-block">news 2</a>
+                    </li>
+               </ul>
+               <ul class="see-next-ul float-right">
+                   <li class="see-next-li">
+                       <a href="#" class="see-next-a">see next</a>
+                   </li>
+               </ul>
+           </div> 
+        </div>
+        <section class="map-block">
+            <iframe class="container map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95470.63887292164!2d41.55906756510665!3d41.60261834595162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406786304ea2d221%3A0x7a3053a9e12ea967!2sBatumi!5e0!3m2!1sen!2sge!4v1570812306591!5m2!1sen!2sge" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </section>
+        <section class="form-block">
+            <div class="container form-wrapper clearfix">
+                <ul class="left-block float-left"></ul>
+                <form class="right-block float-right">
+                    <div class="form-row">
+                        <label for="name" class="label">name</label>
+                        <input type="text" id="name" placeholder="...type your name">
+                    </div>
+                     <div class="form-row">
+                        <label for="email" class="label">e-mail</label>
+                        <input type="text" id="email" placeholder="...type your e-mail">
+                    </div>
+                    <div class="form-row">
+                        <label for="subject" class="label">subject</label>
+                        <input type="text" id="subject" placeholder="...type your subject">
+                    </div>
+                    <div class="form-row">
+                        <label for="massage" class="label">massage</label>
+                        <textarea type="text" id="massage" placeholder="...type your massage"></textarea>
+                    </div>
+                    <button class="send">send</button>
+                </form>
             </div>
         </section>
-        <footer class="footer container">
-            <ul class="social-ul">
-                <li class="social-li">
-                    <a href="#" class="soclia-a fb">
-                        <img src="img/fb.svg" alt="fb">
-                    </a>
-                </li>
-                <li class="social-li">
-                    <a href="#" class="soclia-a youtube">
-                        <img src="img/youtube.svg" alt="youtube">
-                    </a>
-                </li>
-            </ul>
-        </footer>
+        <footer class="footer">
+            <div class="container clearfix">
+                <div class="left-block float-left">©2017 hyper text murkup language</div>
+                <div class="right-block float-right">created by: ME</div>
+            </div>
+        </footer> 
     </main>
 </body>
 </html>
