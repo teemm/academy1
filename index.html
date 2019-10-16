@@ -12,11 +12,27 @@
 <body>
     <main class="main">
         <header class="header">
-            <div class="container clearfix">
-                <a href="#" class="float-left">
+            <div class="container header-wrapper">
+                <a href="#" class="">
                     <img class="logo" src="img/logo.svg" alt="logo">
                 </a>
-                <ul class="social-ul float-right">
+                <nav class="navigation">
+                    <ul class="navigation-ul">
+                        <li class="navigation-li inline-block vertical-middle">
+                            <a href="index.html" class="navigation-a"> hom </a>
+                        </li>
+                        <li class="navigation-li inline-block vertical-middle">
+                            <a href="news.html" class="navigation-a"> news </a>
+                        </li>
+                        <li class="navigation-li inline-block vertical-middle">
+                            <a href="contact.html" class="navigation-a"> about </a>
+                        </li>
+                        <li class="navigation-li inline-block vertical-middle">
+                            <a href="contact.html" class="navigation-a"> contact </a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="social-ul">
                     <li class="social-li">
                         <a href="https://www.facebook.com" target="blank" class="social-a inline-block">
                             <img class="img" src="img/fb.svg" alt="fb">
@@ -38,22 +54,6 @@
                         </a>
                     </li>
                 </ul>
-                <nav class="navigation float-right">
-                    <ul class="navigation-ul">
-                        <li class="navigation-li inline-block vertical-middle">
-                            <a href="index.html" class="navigation-a"> hom </a>
-                        </li>
-                        <li class="navigation-li inline-block vertical-middle">
-                            <a href="news.html" class="navigation-a"> news </a>
-                        </li>
-                        <li class="navigation-li inline-block vertical-middle">
-                            <a href="contact.html" class="navigation-a"> about </a>
-                        </li>
-                        <li class="navigation-li inline-block vertical-middle">
-                            <a href="contact.html" class="navigation-a"> contact </a>
-                        </li>
-                    </ul>
-                </nav>
             </div>
         </header>
         <section class="banner-container">
@@ -73,9 +73,9 @@
                 <h1 class="title-heading">
                     Featured |  <a class="link" href="#">view all featured media</a>
                 </h1>
-                <div class="video-wrapper clearfix">
-                    <iframe class="video-iframe float-left" src="https://www.youtube.com/embed/TSdGUaHj3TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <iframe class="video-iframe float-right" src="https://www.youtube.com/embed/TSdGUaHj3TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="video-wrapper">
+                    <iframe class="video-iframe" src="https://www.youtube.com/embed/TSdGUaHj3TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="video-iframe" src="https://www.youtube.com/embed/TSdGUaHj3TA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -84,20 +84,20 @@
                 <h1 class="title-heading">
                     Featured |  <a class="link" href="#">view all featured media</a>
                 </h1>
-                <div class="article-wrapper clearfix">
-                    <article class="article float-left">
+                <div class="article-wrapper">
+                    <article class="article">
                         <img src="img/design.jpg" alt="design">
                         <h1 class="article-title">Typography Lab</h1>
                     </article>
-                    <article class="article float-left">
+                    <article class="article">
                         <img src="img/design.jpg" alt="design">
                         <h1 class="article-title">Typography Lab</h1>
                     </article>
-                    <article class="article float-left">
+                    <article class="article">
                         <img src="img/design.jpg" alt="design">
                         <h1 class="article-title">Typography Lab</h1>
                     </article>
-                    <article class="article float-left">
+                    <article class="article">
                         <img src="img/design.jpg" alt="design">
                         <h1 class="article-title">Typography Lab</h1>
                     </article>
@@ -109,15 +109,15 @@
                 <h1 class="title-heading">
                     Featured |  <a class="link" href="#">view all featured media</a>
                 </h1>
-                <div class="featured-wrapper clearfix">
-                    <article class="feature-item float-left">
+                <div class="featured-wrapper">
+                    <article class="feature-item">
                         <h1 class="title">Responsive Web Design</h1>
                         <div class="content-wrapper">
                             <img class="content-img inline-block vertical-top" src="img/finger.png" alt="finger"><!--
                             --><p class="content-p inline-block vertical-top">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
                         </div>
                     </article>
-                    <article class="feature-item float-right">
+                    <article class="feature-item">
                         <h1 class="title">Responsive Web Design</h1>
                         <div class="content-wrapper">
                             <img class="content-img inline-block vertical-top" src="img/finger.png" alt="finger"><!--
@@ -129,9 +129,9 @@
 
         </section>
         <footer class="footer">
-            <div class="container clearfix">
-                <div class="left-block float-left">©2017 hyper text murkup language</div>
-                <div class="right-block float-right">created by: ME</div>
+            <div class="container footer-wrapper">
+                <div class="left-block">©2017 hyper text murkup language</div>
+                <div class="right-block">created by: ME</div>
             </div>
         </footer>    
     </main>
