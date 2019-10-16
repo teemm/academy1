@@ -286,10 +286,15 @@
 
 /* navigation box */
 .navigation-box{
-    background-color: #EE4036;
     font-family: "Roboto_regular";
     font-size: 22px;
-    color: #ffffff;
+    color: #3D58A6;
+}
+.navigation-box.red{
+    background-color: #EE4036;
+}
+.navigation-box.gray{
+    background-color: #BDCCD4;
 }
 .navigation-box-li .navigation-box-a::before{
     content: " ";
@@ -300,6 +305,13 @@
     margin-right: 10px;
     margin-right: 10px;
 }
+.navigation-box-li:last-child{
+    color: #ffffff;
+}
+.navigation-box-li.white,
+.see-next-li.white{
+    color: #ffffff;
+}
 .navigation-box-li:first-child .navigation-box-a::before{
     display: none;
 }
@@ -309,6 +321,7 @@
 }
 .see-next-a{
     line-height: 90px; 
+    text-decoration: underline;
 }
 /* navigation box */
 /* map block */
@@ -371,3 +384,78 @@
 }
 
 /* forms block */
+/* new html */
+.date-block{
+    font-family: "Roboto_bold";
+    border: 1px solid #3D58A6;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #3D58A6;
+    text-transform: uppercase;
+    margin-top: 30px;
+    /* flex-wrap: wrap; */
+}
+.date-block .date{
+    font-size: 28px;
+}
+.date-block .month{
+    font-size: 12px;
+}
+.new-title{
+    font-family: "Roboto_regular";
+    font-size: 22px;
+    color: #3D58A6;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.article-text-wrapper{
+    margin: 30px auto;
+}
+.article-text-p:first-child{
+    margin-top: 0;
+}
+.article-text-p{
+    font-family: "Roboto_regular";
+    font-size: 20px;
+    line-height: 24px;
+    color: #58595B;
+    margin-top: 25px;;
+}
+.new-article-img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/* new html */
+/* resurce block */
+.reseurce-tag{
+    background-color: #BDCCD4;
+    line-height: 90px;
+}
+.reseurce-tag-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recurse-tag-img{
+    height: 20px;
+}
+.recurse-tag-ul{
+    display: flex;
+}
+.left-block{
+    font-family: "Roboto_regular";
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: underline;
+}
+.recurse-tag-a{
+    padding: 0 5px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+/* resurce block */
