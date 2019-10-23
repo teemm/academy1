@@ -7,13 +7,14 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mobile.css"/>
     <title>Document</title>
 </head>
 <body>
     <main class="main">
         <header class="header">
             <div class="container header-wrapper">
-                <a href="#" class="">
+                <a href="#" class="logo-wrapper">
                     <img class="logo" src="img/logo.svg" alt="logo">
                 </a>
                 <nav class="navigation">
@@ -48,12 +49,17 @@
                             <img class="img" src="img/fb.svg" alt="fb">
                         </a>
                     </li>
-                    <li class="social-li">
+                    <li class="social-li search">
                         <a href="#" class="social-a inline-block">
                             <img class="img" src="img/fb.svg" alt="fb">
                         </a>
                     </li>
                 </ul>
+                <div class="burger-menu relative">
+                    <span class="arrow"></span>
+                    <span class="arrow"></span>
+                    <span class="arrow"></span>
+                </div>
             </div>
         </header>
         <section class="banner-container">
@@ -133,7 +139,23 @@
                 <div class="left-block">©2017 hyper text murkup language</div>
                 <div class="right-block">created by: ME</div>
             </div>
-        </footer>    
+        </footer>  
+        <div class="overlay">
+            <nav class="mobile-nav">
+                <ul class="mobile-nav-ul">
+                    <li class="mobile-nav-li">
+                        <a href="#" class="mobile-nav-a">HOME</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="mobile-social-ul">
+                <li class="mobile-social-li">
+                    <a href="#" class="mobile-social-a">
+                        <img src="img/fb.svg" alt="fb">
+                    </a>
+                </li>
+            </ul>
+        </div>  
     </main>
 </body>
 </html>
